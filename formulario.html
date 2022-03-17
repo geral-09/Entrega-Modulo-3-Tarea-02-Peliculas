@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav1">
+            <a href="" class=logo >Gamflix</a>
+            <button class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class= "nav-menu">
+                <li class="nav-menu-item"><a href ="./index.html" class="nav-menu-link" class=nav-link>Inicio</a></li>
+                <li class="nav-menu-item"><a href="./formulario.html"class="nav-menu-link" class=nav-link>Registro</a></li> 
+            </ul>
+        </nav>
+    </header>
+        <form class="description" id="survey_form">
+            <div class="big-content">
+                <h1 class="titulo" id="title">Formulario Gamflix</h1>
+                <p class="description-p" id="description"></p>
+                <div class="div-form-name">
+                    <label id="name-label"for="name"> Nombre:</label>
+                    <input type="Text" name="name"  class="Name size" id="nombre" required />
+                </div>
+                <div class="div-form-email">
+                    <label id="email-label" for="email">Apellido:</label>
+                    <input type="Text" name="Lastname"  class="email size" id="apellido" required />
+                </div>
+                <div class="div-form-number">
+                    <label id="number-label" for="number">Telefono:</label>
+                    <input type="number" name="number" class="number size"
+                        id="numeroTel"  />
+                </div>
+                <div class="div-form-number">
+                    <label id="direccion-label" for="number">Dirección:</label>
+                    <input type="text" name="number" class="number size"
+                        id="direccion" min="10" max="10" />
+                </div>
+                <div class="last-p">
+                    <button class="submit" id="submit">Enviar</button>
+                </div>                      
+</div>
+
+<script src="./scripts/formulario.js" type="module"></script>
+</body>
+</html>
